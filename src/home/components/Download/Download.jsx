@@ -15,7 +15,7 @@ export const Download = () => {
         You can download the desktop application for Windows
       </p>
       <div className="download-buttons">
-        <a href="/windows/dinamicjs-2.7.6 Setup.exe">
+        <a href="https://github.com/Waxer59/DinamicJs-Desktop/releases" target="_blank">
           <BsWindows />
           &nbsp; Windows
         </a>
