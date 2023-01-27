@@ -1,6 +1,6 @@
 import "./styles/DownloadStyles.css";
-import { BsWindows, BsBoxArrowUpRight } from "react-icons/bs";
-import { FaLinux } from "react-icons/fa";
+import { BsBoxArrowUpRight } from "react-icons/bs";
+import { BiDownload } from "react-icons/bi";
 import { Element } from "react-scroll";
 
 export const Download = () => {
@@ -16,8 +16,8 @@ export const Download = () => {
       </p>
       <div className="download-buttons">
         <a href="https://github.com/Waxer59/DinamicJs-Desktop/releases" target="_blank">
-          <BsWindows />
-          &nbsp; Windows
+          <BiDownload />
+          &nbsp; Download
         </a>
       </div>
 
