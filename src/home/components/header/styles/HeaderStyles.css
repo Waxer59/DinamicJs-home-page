@@ -1,0 +1,14 @@
+.header {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: clamp(200px, 40vw, 1000px);
+}
+
+.header-video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 51px 0 rgba(0, 0, 0, 0.16),
+    0 4px 19px 0 rgba(0, 0, 0, 0.07);
+}

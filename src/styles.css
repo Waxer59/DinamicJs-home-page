@@ -1,0 +1,62 @@
+:root {
+  --primary: #1c1c1c;
+  --secondary: #2c2c2c;
+  --gray: #d6d5d5;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+  color: var(--gray);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: clamp(8px, 1.5vw, 16px);
+  scrollbar-color: #5c5c5c;
+  scrollbar-width: thin;
+  height: 100%;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  overflow: overlay;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6c6c6c;
+}
+
+@media (max-width: 300px) {
+  .nav {
+    flex-flow: column;
+  }
+  .header {
+    width: 150px;
+  }
+}
+
+@media (max-width: 150px) {
+  .header {
+    width: 90px;
+  }
+}
