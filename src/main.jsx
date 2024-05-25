@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HomePage } from "./home/HomePage";
+import { HomePage } from "./pages/HomePage";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(

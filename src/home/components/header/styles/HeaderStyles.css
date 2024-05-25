@@ -4,7 +4,7 @@
   width: clamp(200px, 40vw, 1000px);
 }
 
-.header-video {
+.header img {
   width: 100%;
   height: auto;
   border-radius: 15px;
