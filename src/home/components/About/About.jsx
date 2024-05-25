@@ -1,15 +1,20 @@
-import "./styles/AboutStyles.css";
-import { Element } from "react-scroll";
+import './styles/AboutStyles.css'
+import { Element } from 'react-scroll'
 
 export const About = () => {
   return (
     <section className="about-container">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="about-svg">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+        className="about-svg">
         <path fill="#2c2c2c" d="M0,0L1440,160L1440,320L0,320Z"></path>
       </svg>
       <section className="about">
         <h2 className="about-title">
-          <Element id="about-section" name="about-section">What is DinamicJs?</Element>
+          <Element id="about-section" name="about-section">
+            What is DinamicJs?
+          </Element>
         </h2>
         <p className="about-text">
           DinamicJs is a tool in which you can write js and see its execution in
@@ -21,5 +26,5 @@ export const About = () => {
         </p>
       </section>
     </section>
-  );
-};
+  )
+}

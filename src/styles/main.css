@@ -4,15 +4,17 @@
   --gray: #d6d5d5;
 }
 
-* {
-  font-family: "Manrope", sans-serif;
-  box-sizing: border-box;
+p,
+h1,
+h2,
+a {
   color: var(--gray);
 }
 
 html {
+  font-family: 'Manrope', sans-serif;
   scroll-behavior: smooth;
-  font-size: clamp(8px, 1.5vw, 16px);
+  font-size: clamp(12px, 1.5vw, 16px);
   scrollbar-color: #5c5c5c;
   scrollbar-width: thin;
   height: 100%;
@@ -47,16 +49,11 @@ body {
 }
 
 @media (max-width: 300px) {
-  .nav {
-    flex-flow: column;
-  }
   .header {
-    width: 150px;
+    margin-top: 100px;
   }
-}
 
-@media (max-width: 150px) {
-  .header {
-    width: 90px;
+  .nav {
+    flex-direction: column;
   }
 }

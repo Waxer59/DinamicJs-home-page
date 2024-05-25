@@ -1,8 +1,8 @@
-import { About } from "../components/About/About";
-import { Download } from "../components/Download/Download";
-import { Footer } from "../components/Footer/Footer";
-import { Header } from "../components/Header/Header";
-import { Navbar } from "../components/Navbar/Navbar";
+import { About } from '../components/about/About'
+import { Download } from '../components/download/Download'
+import { Footer } from '../components/footer/Footer'
+import { Header } from '../components/header/Header'
+import { Navbar } from '../components/navbar/Navbar'
 
 export const HomePage = () => {
   return (
@@ -13,5 +13,5 @@ export const HomePage = () => {
       <Download />
       <Footer />
     </>
-  );
-};
+  )
+}

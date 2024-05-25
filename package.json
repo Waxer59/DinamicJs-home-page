@@ -30,10 +30,10 @@
     "vite": "^5.2.11"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx,js,jsx}": [
+    "./src/**/*.{ts,tsx,js,jsx}": [
       "eslint --fix"
     ],
-    "src/**/*.{ts,tsx,js,jsx,html,css,md}": [
+    "./src/**/*.{ts,tsx,js,jsx,html,css,md}": [
       "prettier --write"
     ]
   }

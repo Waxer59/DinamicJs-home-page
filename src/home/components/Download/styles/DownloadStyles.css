@@ -1,47 +1,52 @@
-.download{
-    margin-top: 150px;
-    text-align: center;
+.download {
+  margin-top: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.download-title{
-    margin: 0;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    font-weight: 400;
-    font-size: 3rem;
+.download-title {
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
-.download-text{
-    text-align: center;
-    padding: 0 50px;
-    margin-bottom: 0px;
-    font-size: 1.25rem;
-    font-weight: 300;
+.download-options li p {
+  max-width: 500px;
+  text-align: center;
+  padding: 0 50px;
+  margin-bottom: 0px;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
-.download-buttons{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    gap: 10px;
+.download-options {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
 }
 
-.download-buttons > a{
-    background: var(--secondary);
-    outline: none;
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 1.25rem;
-    cursor: pointer;
-    text-decoration: none;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.16);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.download-options a {
+  background: var(--secondary);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.16);
 }
 
-.download-web-version{
-    margin-top: 25px;
-    text-align: center;
+.download-options li {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
 }
