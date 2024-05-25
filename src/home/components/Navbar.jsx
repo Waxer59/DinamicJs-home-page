@@ -1,5 +1,5 @@
-import { Link } from "react-scroll";
-import "./styles/NavbarStyles.css";
+import { Link } from 'react-scroll'
+import './styles/NavbarStyles.css'
 
 export const Navbar = () => {
   return (
@@ -27,5 +27,5 @@ export const Navbar = () => {
         </ul>
       </nav>
     </>
-  );
-};
+  )
+}

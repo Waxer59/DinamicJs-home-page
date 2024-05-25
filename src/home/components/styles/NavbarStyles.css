@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.nav-logo strong {
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.nav-links li a {
+  display: inline-block;
+  background: none;
+  border: none;
+  padding-top: 1px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-style: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffffff;
+}
