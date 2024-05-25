@@ -1,8 +1,8 @@
-import { About } from '../components/about/About'
-import { Download } from '../components/download/Download'
-import { Footer } from '../components/footer/Footer'
-import { Header } from '../components/header/Header'
-import { Navbar } from '../components/navbar/Navbar'
+import { Navbar } from '../components/navbar/Navbar.jsx'
+import { Header } from '../components/header/Header.jsx'
+import { About } from '../components/about/About.jsx'
+import { Download } from '../components/download/Download.jsx'
+import { Footer } from '../components/footer/Footer.jsx'
 
 export const HomePage = () => {
   return (
